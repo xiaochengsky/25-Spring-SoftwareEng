@@ -34,6 +34,8 @@ TraDeFi is an advanced trading platform that combines the power of AI with decen
    - Update the following fields in your configuration:
      - `HTTP_RPC_URI`
      - `WSS_RPC_URI`
+   - Update the OpenAi Key in main_gui.py:
+     - `main_gui.set_openai_api`
 
 ## Running the Application
 
@@ -46,19 +48,20 @@ TraDeFi is an advanced trading platform that combines the power of AI with decen
 
    a. **GMGN Token View**
    - Navigate to the GMGN section to view available tokens
-   ![GMGN Token View](path_to_gmgn_image.png)
+   ![GMGN Dex](https://github.com/xiaochengsky/25-Spring-SoftwareEng/blob/main/images/3-Dex.png)
 
    b. **Balance Check**
    - View your Solana balance in the TraDeFi interface
-   ![Balance View](path_to_balance_image.png)
+   ![Wallet View](https://github.com/xiaochengsky/25-Spring-SoftwareEng/blob/main/images/4-Wallet.png)
 
    c. **Trading**
    - Execute buy and sell orders through the intuitive interface
-   ![Trading Interface](path_to_trading_image.png)
+   ![Trading-Buy](https://github.com/xiaochengsky/25-Spring-SoftwareEng/blob/main/images/5-buy.png)
+   ![Trading-Sell](https://github.com/xiaochengsky/25-Spring-SoftwareEng/blob/main/images/5-sell.png)
 
    d. **AI Agent**
    - Utilize the AI agent for trading assistance and market analysis
-   ![AI Agent](path_to_ai_agent_image.png)
+   ![AI Agent](https://github.com/xiaochengsky/25-Spring-SoftwareEng/blob/main/images/6-agent.png)
 
 ## Security Notes
 
