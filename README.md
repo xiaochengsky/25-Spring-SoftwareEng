@@ -1,15 +1,15 @@
-# TraDeFi - AI-Powered Trading Platform
+# 🚀 TraDeFi - AI-Powered Trading Platform
 
 TraDeFi is an advanced trading platform that combines the power of AI with decentralized finance on the Solana blockchain. This platform enables users to trade tokens with the assistance of AI agents while maintaining full control over their assets.
 
-## Prerequisites
+## 🔧 Prerequisites
 
 - Python 3.10
 - Conda package manager
 - Phantom Wallet
 - Helius RPC Node access
 
-## Setup Steps
+## 🛠️ Setup Steps
 
 1. **Create Conda Environment**
    ```bash
@@ -37,7 +37,7 @@ TraDeFi is an advanced trading platform that combines the power of AI with decen
    - Update the OpenAi Key in main_gui.py:
      - `main_gui.set_openai_api`
 
-## Running the Application
+## 🏃 Running the Application
 
 1. Start the application:
    ```bash
@@ -57,24 +57,23 @@ TraDeFi is an advanced trading platform that combines the power of AI with decen
    c. **Trading**
    - Execute buy and sell orders through the intuitive interface
    ![Trading-Buy](https://github.com/xiaochengsky/25-Spring-SoftwareEng/blob/main/images/5-buy.png)
-   ![Trading-Sell](https://github.com/xiaochengsky/25-Spring-SoftwareEng/blob/main/images/5-sell.png)
+   ![Trading-Sell](https://github.com/xiaochengsky/25-Spring-SoftwareEng/blob/main/images/6-sell.png)
 
    d. **AI Agent**
    - Utilize the AI agent for trading assistance and market analysis
-   ![AI Agent](https://github.com/xiaochengsky/25-Spring-SoftwareEng/blob/main/images/6-agent.png)
+   ![AI Agent](https://github.com/xiaochengsky/25-Spring-SoftwareEng/blob/main/images/7-agent.png)
 
-## Security Notes
+## 🔒 Security Notes
 
 - Never share your private keys or `.env` file
 - Keep your Phantom Wallet secure
 - Regularly backup your wallet credentials
 
-## Support
-
+## 💬 Support
 For any issues or questions, please open an issue in the repository.
 
-## License
+## 📄 License
 
-This is a private project. All rights reserved.
+This is a private project (Just for requirement of the course, I open it temporary.). All rights reserved.
 
 Copyright (c) 2025 TraDeFi. Unauthorized copying, distribution, or use of this project, via any medium, is strictly prohibited.
