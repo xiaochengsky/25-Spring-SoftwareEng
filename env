@@ -1,0 +1,33 @@
+CUSTOM_STRATEGIES_PATH=Examples/MyStrategies
+PAYER_HASH=<your wallet key>
+
+HTTP_RPC_URI=https://api.mainnet-beta.solana.com
+WSS_RPC_URI=wss://api.mainnet-beta.solana.com
+HTTP_RPC_URI_BACKUP=None
+JITO_URL=https://slc.mainnet.block-engine.jito.wtf/api/v1/bundles
+
+TX_SUBS_WITH_GEYSER=False
+GEYSER_WSS=wss://atlas-mainnet.helius-rpc.com/?api-key=<your key>
+
+BINANCE_API_KEY=<your key>
+BINANCE_API_SECRET=<your key>
+
+X_CONSUMER_KEY=<your key>
+X_CONSUMER_SECRET=<your key>
+X_BEARER_TOKEN=<your key>
+
+DISCORD_BOT_TOKEN=<your key>
+DISCORD_PUBLIC_KEY=<your key>
+DISCORD_CHANNEL_NAMES=['token-launches', 'just-a-test']
+
+IFTTT_WEBHOOK_NAME=ifttt-webhook
+IFTTT_WEBHOOK_PORT=5000
+
+ANTHROPIC_API_KEY=<your key>
+MODEL="claude-3-5-sonnet-20241022"
+
+JITO_TIP_ADDRESS=3AVi9Tg9Uo68tJfuvoKvqKNWKkC5wPdSSdeBnizKZ6jT
+
+AUTO_BUY_IN_SOL=.001
+DEFAULT_SLIPPAGE=50
+DEFAULT_PRIORITY_FEE=.003 

@@ -1,0 +1,11 @@
+[
+    {
+        "comment": "strategy_name must match the actual class name for a loaded py module",
+        "strategy_name" : "StrategyTemplate",
+        "strategy_title" : "Build your own - fields below are up to your imagination. Just load and use them in you <Strategy>.py ",
+        "pubkeys" : [ 
+            {"pubkey": "pubkey goes here"}
+            ],     
+        "key_encryption": "None" 
+    }
+]

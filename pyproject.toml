@@ -1,0 +1,43 @@
+[project]
+name = "txdefi"
+version = "1.0.7"
+description = "Tx Defi Framework for building crypto trading software"
+keywords = ["solana", "sdk", "blockchain", "tools"]
+authors = [
+    {name = "software@cryptometagm.xyz"}
+]
+license = "MIT"
+readme = "README.md"
+requires-python = ">=3.12,<4.0"
+dependencies = [
+    "python-dotenv (>=1.0.1)",
+    "Pypubsub (>=4.0.3)",
+    "numpy (>=1.26.4)",
+    "requests (>=2.32.2)",
+    "jsonrpcclient (>=4.0.3)",
+    "customtkinter (>=5.2.2)",
+    "pillow (>=10.3.0)",
+    "base58 (>=2.1.1)",
+    "pandas (>=2.2.3)",
+    "anchorpy (>=0.20.1)",
+    "solders (==0.21.0)",
+    "solana (==0.35.1)",
+    "discord.py (>=2.4.0)",
+    "Telethon (>=1.38.1)",
+    "Flask (>=3.1.0)",
+    "oauthlib (>=3.2.2)",
+    "regex (>=2024.11.6)",
+    "audioop-lts (>=0.2.1)",
+    "pynacl (>=1.5.0)",
+    "pygame (>=2.6.1)",
+    "windows-curses (>=2.4.1); sys_platform == 'win32'",
+    "grpcio (>=1.71.0)",
+    "grpcio-tools (>=1.71.0)"
+]
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[poetry.group.dev.dependencies]
+pytest = "8.3.4"
